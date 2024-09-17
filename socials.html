@@ -14,73 +14,72 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    body {
-      display: grid;
-      place-items: center;
-    }
+body {
+  display: grid;
+  place-items: center;
+}
 
-    .wrapper {
-      padding-top: 10px;
-      display: inline-flex;
-    }
+.wrapper {
+  padding-top: 10px;
+  display: flex; /* Changed from inline-flex to flex */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
 
-    .social {
-      background-color: #eae9e9;
-      width: 55px;
-      height: 55px;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-    }
+.social {
+  background-color: #eae9e9;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: 10px 0; /* Adjust spacing for vertical alignment */
+  cursor: pointer;
+  position: relative;
+}
 
-    .icon {
-      font-size: 1.2em;
-    }
+.icon {
+  font-size: 1.2em;
+}
 
-    .email:hover {
-      background-color: #23c8c8;
-    }
+.email:hover {
+  background-color: #23c8c8;
+}
 
-    .discord:hover {
-      background-color: #4267B2;
-    }
+.discord:hover {
+  background-color: #4267B2;
+}
 
-    .instagram:hover {
-      background: rgb(241, 102, 217);
-      background: radial-gradient(circle, rgba(241, 102, 217, 1) 10%, rgba(252, 176, 69, 1) 76%, rgba(253, 29, 29, 1) 100%);
-    }
+.instagram:hover {
+  background: rgb(241, 102, 217);
+  background: radial-gradient(circle, rgba(241, 102, 217, 1) 10%, rgba(252, 176, 69, 1) 76%, rgba(253, 29, 29, 1) 100%);
+}
 
-    .luma:hover {
-      background-color: #0e76a8;
-    }
+.luma:hover {
+  background-color: #0e76a8;
+}
 
-    .x-twitter:hover {
-      background-color: #26a7de;
-    }
+.x-twitter:hover {
+  background-color: #26a7de;
+}
 
-    .youtube:hover {
-      background-color: #FF0000;
-    }
+.youtube:hover {
+  background-color: #FF0000;
+}
 
-    .telegram:hover {
-      background-color: #2AABEE;
-    }
+.telegram:hover {
+  background-color: #2AABEE;
+}
 
-    .social {
-      position: relative;
-      margin: 10px;
-      cursor: pointer;
-    }
-
-    .social:hover {
-      color: #fff;
-    }
+.social:hover {
+  color: #fff;
+}
   </style>
 
 </head>
