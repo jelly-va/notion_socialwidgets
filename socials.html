@@ -15,6 +15,7 @@
 
   <style>
    * {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,24 +30,24 @@ body {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Changed from column to row */
   align-items: center;
 }
 
 .social {
   background-color: #eae9e9;
-  width: 25px;  /* Reduced from 30px */
-  height: 25px; /* Reduced from 30px */
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8px 0; /* Slightly reduced margin for closer spacing */
+  margin: 0.8px; /* Changed from vertical to horizontal margin */
   cursor: pointer;
 }
 
 .icon {
-  font-size: 0.9em; /* Reduced from 1.1em */
+  font-size: 0.9em;
 }
 
 .email:hover {
